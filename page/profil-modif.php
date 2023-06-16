@@ -97,7 +97,7 @@ if (isset($_SESSION['id'])){
         }
     }
     else{
-        header("location: connecxion.php");
+        header("location: connecion.php");
     }
     ?>
         <?php
@@ -107,6 +107,6 @@ if (isset($_SESSION['id'])){
     ?>
 </div>
 <div class="deco">
-    <a href="deconnecxion.php">deconnecxion</a>
+    <a href="deconnexion.php">deconnexion</a>
 </div>
 </body>

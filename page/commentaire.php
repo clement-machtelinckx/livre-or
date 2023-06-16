@@ -16,9 +16,9 @@ if (isset($_GET['id']) && $_GET['id'] > 0) {
     if (isset($_POST['submitcomm'])) {
         if (isset($_POST['comm']) && !empty($_POST['comm'])) {
             $commentaire = htmlspecialchars($_POST['comm']);
-            $time = date('Y-m-d H:i:s', time());
-            $ins = $bdd->prepare('INSERT INTO commentaires (commentaire, id_utilisateur, date) VALUES (?,?,?)');
-            $ins->execute(array($commentaire, $getid, $time));
+            /*$time = date('Y-m-d H:i:s', time());*/
+            $ins = $bdd->prepare('INSERT INTO commentaires (commentaire, id_utilisateur /*date*/) VALUES (?,?)');
+        $ins->execute(array($commentaire, $getid /*$time*/));
         } else {
             $erreur = "Erreur: Tous les champs doivent être complétés";
         }
@@ -68,6 +68,7 @@ $commentaires->execute();
         }
         ?>
     </div>
+    <a href="profil.php?id=<?php echo $userinfos['id']; ?>">profil</a><br>
     <a href="deconnexion.php">deconnexion</a>
 </body>
 </html>

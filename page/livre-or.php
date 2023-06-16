@@ -58,6 +58,6 @@ try {
 }
 ?>
 <a href="commentaire.php">commentaire</a>
-<a href="deconnecxion.php">se déconnecter</a>
+<a href="deconnexion.php">se déconnecter</a>
 </div>
 </body>
