@@ -1,0 +1,47 @@
+body {
+    background-image: url("../image/Sea-rocks-sky-clouds-sunset_1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    
+}
+.profil{
+    margin-top: 18vh;
+    background-color: rgba(8, 8, 8, 0.543);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.profil2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    margin: 2vh;
+}
+a:hover{
+background-color: white;
+color: black;
+border: solid 2px black;
+}
+.deco {
+    
+
+}

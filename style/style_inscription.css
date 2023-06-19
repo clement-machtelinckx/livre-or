@@ -1,0 +1,42 @@
+body {
+    background-image: url("../image/Ocean-sunset-sea-wave-water_1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+  
+  }
+  
+
+.inscrip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15%;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.374);
+    margin-left: 60vh;
+    margin-right: 60vh;
+    margin-top: 200px;
+}
+.formu {
+    background-color: rgba(0, 0, 0, 0.694);
+    font-family: monospace;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 2vh;
+    background-color: black;
+    transition: background-color 1s ease;
+    font-family: monospace;
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}

@@ -6,12 +6,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style_profil.css" media="screen">
+    <link rel="stylesheet" href="../style/style_livre.css" media="screen">
 
     <title>Livre-or</title>
 </head>
 <body>
-<div class="admin">
+<div class="livre">
 <?php
 $serveur = 'localhost';
 $nomUtilisateur = 'root';

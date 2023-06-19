@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-image: url("../image/red-tree.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.but-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.but-index > a {
+    font-family: monospace;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(191, 177, 203);
+
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 2px black;
+}
+
+.but-index a:hover{
+    background-color: beige;
+}
+.bg-index {
+    background-color: black;
+    border-radius: 15px;
+    height: 100vh;
+    width: 50vh;
+    background: linear-gradient(70deg, rgba(0, 0, 0, 0.306),rgba(254, 254, 255, 0.342));
+ 
+}

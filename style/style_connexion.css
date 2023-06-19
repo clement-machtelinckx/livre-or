@@ -1,0 +1,40 @@
+body {
+    background-image: url("../image/Beautiful-nature-landscape-mountains-clouds-lake-boat_1920x1200.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+  
+  }
+.connec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 20px;
+    margin-left: 60vh;
+    margin-right: 60vh;
+    margin-top: 250px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    transition: background-color 1s ease;
+    font-family: monospace;
+    margin-top: 2vh;
+    
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.formuconnec{
+  color: white;
+  font-family: monospace;
+}

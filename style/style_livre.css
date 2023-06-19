@@ -1,0 +1,32 @@
+body {
+    color: white;
+    background-image: url("../image/wp_gal.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: monospace;
+    margin: 0;
+}
+.livre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.347);
+    height: auto;
+    border: solid 2px white;
+    border-radius: 15px;
+    
+    
+}
+a {
+    margin-top: 3vh;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: solid 2px white;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: monospace;
+}

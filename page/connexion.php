@@ -74,6 +74,7 @@ if (isset($_POST["submitconnect"])){
             <input type="submit" id="submitconnect" name="submitconnect" value="Connection">
         </form>
             <a href="inscription.php">pas de compte inscrit toi !!</a>
+            <a href="../index.php">accueil</a>
 
             <?php
         if(isset($erreur)){

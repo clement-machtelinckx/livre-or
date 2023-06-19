@@ -10,10 +10,12 @@
     <title>Accueil</title>
 </head>
 <body>
+    <div class="bg-index">
     <div class=but-index>
         <a href="page/connexion.php">Connexion</a>
         <a href="page/inscription.php">Inscription</a>
         <a href="https://github.com/clement-machtelinckx/livre-or">Github</a>
+    </div>
     </div>
 
 
